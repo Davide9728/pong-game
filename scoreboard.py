@@ -13,10 +13,10 @@ class Scoreboard(Turtle):
         self.print_score()
 
 
-    def print_score(self):
+    def print_score(self): # it print first scorebaord on top of screen
         self.write(f"{self.score}", False,'center',('arial',76,'normal'))
 
-    def increase_score(self):
+    def increase_score(self): # it print new updated score on top of screen
         self.score += 1
         self.clear()
         self.write(f"{self.score}", False, 'center', ('arial', 76, 'normal'))
