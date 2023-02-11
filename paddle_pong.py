@@ -12,11 +12,11 @@ class Paddle(Turtle):
         self.shapesize(stretch_wid=5, stretch_len=1)
 
 
-    def paddle_up(self):
+    def paddle_up(self): #paddle go up of 20 pixel
         new_y = self.ycor() + 20
         self.goto(self.xcor() ,new_y)
 
 
-    def paddle_down(self):
+    def paddle_down(self): #paddle go down of 20 pixel
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
