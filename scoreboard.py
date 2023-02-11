@@ -20,7 +20,3 @@ class Scoreboard(Turtle):
         self.score += 1
         self.clear()
         self.write(f"{self.score}", False, 'center', ('arial', 76, 'normal'))
-
-
-    def end_tite(self):
-        pass
